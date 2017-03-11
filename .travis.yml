@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+  - 2.3.3
+env:
+  global:
+    - ERRBIT_PATH=/tmp/errbit
+sudo: false
+cache: bundler
+before_script:
+  - git clone https://github.com/errbit/errbit.git $ERRBIT_PATH
+script:
+  - bundle exec jekyll build
+  - bundle exec s3_website push
