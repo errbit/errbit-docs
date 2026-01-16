@@ -13,3 +13,5 @@ gem 's3_website'
 gem "logger"
 # safe_yaml-1.0.4/lib/safe_yaml/transform.rb:1: warning: base64 was loaded from the standard library, but is not part of the default gems starting from Ruby 3.4.0.
 gem "base64"
+# liquid-3.0.6/lib/liquid/standardfilters.rb:2: warning: bigdecimal was loaded from the standard library, but is not part of the default gems starting from Ruby 3.4.0.
+gem "bigdecimal"

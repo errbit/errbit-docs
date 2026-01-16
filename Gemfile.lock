@@ -14,6 +14,7 @@ GEM
       aws-sdk-core (= 2.11.197)
     aws-sigv4 (1.0.3)
     base64 (0.3.0)
+    bigdecimal (4.0.1)
     byebug (13.0.0)
       reline (>= 0.6.0)
     coderay (1.1.1)
@@ -96,6 +97,7 @@ PLATFORMS
 
 DEPENDENCIES
   base64
+  bigdecimal
   dotenv
   jekyll
   kramdown
