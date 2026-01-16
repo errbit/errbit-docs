@@ -15,3 +15,7 @@ gem "logger"
 gem "base64"
 # liquid-3.0.6/lib/liquid/standardfilters.rb:2: warning: bigdecimal was loaded from the standard library, but is not part of the default gems starting from Ruby 3.4.0.
 gem "bigdecimal"
+# jekyll-3.3.1/lib/jekyll/site.rb:2: warning: csv was loaded from the standard library, but is not part of the default gems starting from Ruby 3.4.0.
+gem "csv"
+
+gem "rexml"
