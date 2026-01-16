@@ -53,8 +53,8 @@ GEM
     nokogiri (1.19.0)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogumbo (1.4.10)
-      nokogiri
+    nokogiri (1.19.0-x86_64-darwin)
+      racc (~> 1.4)
     oga (2.2)
       ast
       ruby-ll (~> 2.1)
@@ -90,12 +90,13 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-darwin-24
 
 DEPENDENCIES
   dotenv
   jekyll
   kramdown
-  nokogumbo
+  nokogiri
   oga
   pry-byebug
   rugged
