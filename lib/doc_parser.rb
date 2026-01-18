@@ -1,4 +1,4 @@
-# require 'nokogumbo'
+require "nokogiri"
 
 # Kramdown escapes certain HTML tags for unknown reasons, but if there are line
 # breaks before and after, kramdown understands that these tags are HTML and

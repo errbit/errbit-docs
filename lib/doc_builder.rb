@@ -100,9 +100,9 @@ class DocBuilder
   # master first, then descending numerically (by semver semantics)
   def sort_versions
     @versions.sort! do |a,b|
-      if a == 'main'
+      if a == "main"
         -1
-      elsif b == 'main'
+      elsif b == "main"
         1
       else
         va = a.sub(/^v/, '')
