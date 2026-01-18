@@ -4,4 +4,3 @@ services:
       context: .
     ports:
       - "8080:80"
-      - "2019:2019"

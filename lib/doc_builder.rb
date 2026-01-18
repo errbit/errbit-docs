@@ -4,7 +4,7 @@ require 'fileutils'
 require 'oga'
 
 # Walk the GitHub refs looking for all release tags and gathering up all the
-# files from the docs/ folder for each release (plus master).
+# files from the docs/ folder for each release (plus main).
 class DocBuilder
   attr_reader :versions
 

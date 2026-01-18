@@ -5,10 +5,9 @@
 	servers {
 		protocols h1
 	}
-	admin :2019
-	debug
 }
 
+# Uncomment if you want to test changes locally!
 #http://localhost {
 #	root * /www # sets the root of all other directives
 #	file_server # tells Caddy to serve the static files found at the root
