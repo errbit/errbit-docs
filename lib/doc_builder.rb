@@ -3,7 +3,7 @@ require 'rugged'
 require 'fileutils'
 require 'oga'
 
-# Walk the github refs looking for all release tags and gathering up all the
+# Walk the GitHub refs looking for all release tags and gathering up all the
 # files from the docs/ folder for each release (plus master).
 class DocBuilder
   attr_reader :versions
@@ -19,8 +19,8 @@ class DocBuilder
       build_tree(tag.target.tree, tag.name.dup)
     end
 
-    master = @repo.branches['master']
-    build_tree(master.target.tree, 'master')
+    main = @repo.branches["main"]
+    build_tree(main.target.tree, "main")
   end
 
   def build_tree(tree, version)
