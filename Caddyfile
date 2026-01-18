@@ -1,0 +1,14 @@
+{
+	auto_https off
+	persist_config off
+	metrics
+	servers {
+		protocols h1
+	}
+	admin :2019
+}
+
+http://errbit.com {
+	root * /www # sets the root of all other directives
+	file_server # tells Caddy to serve the static files found at the root
+}
