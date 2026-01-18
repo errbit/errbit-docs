@@ -1,6 +1,8 @@
+/.jekyll-cache
 /_site
 /docs
 /tmp
 /.sass-cache
 /.env
 /.idea
+/.DS_Store
