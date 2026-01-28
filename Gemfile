@@ -1,10 +1,9 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'dotenv'
-gem 'jekyll'
-gem 'kramdown'
-gem 'nokogumbo'
-gem 'oga'
-gem 'pry-byebug'
-gem 'rugged'
-gem 's3_website'
+gem "dotenv"
+gem "jekyll"
+gem "kramdown"
+gem "nokogiri"
+gem "oga"
+gem "pry-byebug"
+gem "rugged"

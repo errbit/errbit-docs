@@ -1,0 +1,19 @@
+{
+	auto_https off
+	persist_config off
+	metrics
+	servers {
+		protocols h1
+	}
+}
+
+# Uncomment if you want to test changes locally!
+#http://localhost {
+#	root * /www # sets the root of all other directives
+#	file_server # tells Caddy to serve the static files found at the root
+#}
+
+http://errbit.com {
+	root * /www # sets the root of all other directives
+	file_server # tells Caddy to serve the static files found at the root
+}

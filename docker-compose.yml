@@ -1,0 +1,6 @@
+services:
+  caddy:
+    build:
+      context: .
+    ports:
+      - "8080:80"

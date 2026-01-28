@@ -1,12 +1,14 @@
 ---
 encoding: utf-8
 exclude:
+  - README.md
   - Gemfile
   - Gemfile.lock
   - bin
-  - s3_website.yml
   - CNAME
   - lib
+  - tmp
+  - vendor
 kramdown:
   input: GFM
   gfm_quirks: paragraph_end
@@ -15,12 +17,3 @@ defaults:
   -
     values:
       layout: "default"
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - s3_website.yml
-  - tmp
-  - lib
-  - bin
-  - vendor
