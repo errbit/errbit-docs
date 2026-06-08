@@ -46,8 +46,8 @@ This is also the last release that supports MongoDB.
 Our plans for the future include:
 
 1. Migrate to an SQL database (ActiveRecord). Ref: [#2832](https://github.com/errbit/errbit/pull/2832).
-2. Using Errbit as an MCP server. Ref: [#2873](https://github.com/errbit/errbit/pull/2873).
-3. OIDC (aka OpenID Connect) support. Ref: [#2634](https://github.com/errbit/errbit/pull/2634).
+2. Use Errbit as an MCP server. Ref: [#2873](https://github.com/errbit/errbit/pull/2873).
+3. Add OIDC (aka OpenID Connect) support. Ref: [#2634](https://github.com/errbit/errbit/pull/2634).
 
 We are also looking for contributors to help us with these plans. If you are
 interested in contributing, please check out our [GitHub Issues](https://github.com/errbit/errbit/issues).
