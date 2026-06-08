@@ -38,8 +38,8 @@ Short changelog:
 15. Deprecated `sucker_punch` gem was removed. Active Job now uses the `async` queue adapter instead.
 16. Started integrating the `pundit` gem. From now on, only admin users can see all users.
 17. Add mailer previews.
-18. Fix API JSON serialization for Mongoid documents (PR #2597) by @elektronaut.
-19. Fix `ResolvedProblemClearer`. Compact can fail (second case for #1551). PR #1905.
+18. Fix API JSON serialization for Mongoid documents (PR [#2597](https://github.com/errbit/errbit/pull/2597)) by @elektronaut.
+19. Fix `ResolvedProblemClearer`. Compact can fail (second case for [#1551](https://github.com/errbit/errbit/issues/1551)). PR [#1905](https://github.com/errbit/errbit/pull/1905).
 
 This is also the last release that supports MongoDB.
 
