@@ -166,9 +166,9 @@ PLATFORMS
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
-  jekyll (~> 4.4.1)
-  jekyll-feed (~> 0.12)
-  minima (~> 2.5)
+  jekyll
+  jekyll-feed
+  minima
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1)
