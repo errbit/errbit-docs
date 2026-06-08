@@ -41,6 +41,8 @@ Short changelog:
 18. Fix API JSON serialization for Mongoid documents (PR #2597) by @elektronaut.
 19. Fix `ResolvedProblemClearer`. Compact can fail (second case for #1551). PR #1905.
 
+This is also the last release that supports MongoDB.
+
 Our plans for the future include:
 
 1. Migrate to an SQL database (ActiveRecord). Ref: [#2832](https://github.com/errbit/errbit/pull/2832).
