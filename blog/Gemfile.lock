@@ -165,13 +165,9 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  http_parser.rb (~> 0.6.0)
   jekyll
   jekyll-feed
   minima
-  tzinfo (>= 1, < 3)
-  tzinfo-data
-  wdm (~> 0.1)
 
 CHECKSUMS
   addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
