@@ -9,7 +9,7 @@ We are excited to announce the release of version v0.11.0!
 
 But, before we dive into the details, I want to make a quick announcement.
 
-I am Igor (Ihor) Zubkov, new maintainer of Errbit.
+I am Igor (Ihor) Zubkov, the new maintainer of Errbit.
 
 I don't plan to change the direction of the project. I will continue to
 maintain Errbit as a self-hosted error tracking solution, and I will do
@@ -17,9 +17,9 @@ my best to keep it up-to-date with the latest technologies and security patches.
 
 Now, let's talk about the new features and improvements in version v0.11.0.
 
-So, new Errbit release is faster, secure and more modern than ever before.
+The new Errbit release is faster, more secure, and more modern than ever before.
 
-Small changelog:
+Short changelog:
 
 1. Ruby 4.0.5.
 2. RubyGems 4.0.13 and Bundler 4.0.13.
@@ -35,18 +35,17 @@ Small changelog:
 12. Migrate `app/views/**/*.haml.erb` to `app/views/**/*.html.erb`.
 13. Add GitHub Action for Bundler Audit and Brakeman.
 14. Integrate Trivy for container image scanning.
-15. Deprecated `sucker_punch` gem was removed. Active Job is uses `async` queue adapter instead.
-16. Start integrating `pundit` gem. From now on, only admin users can see all users.
+15. Deprecated `sucker_punch` gem was removed. Active Job now uses the `async` queue adapter instead.
+16. Started integrating the `pundit` gem. From now on, only admin users can see all users.
 17. Add mailer previews.
-18. Replace Fabrication with FactoryBot.
-19. Fix API JSON serialization for Mongoid documents (PR #2597) by @elektronaut
-20. Fix `ResolvedProblemClearer`. Compact can fail (second case for #1551). PR #1905.
+18. Fix API JSON serialization for Mongoid documents (PR #2597) by @elektronaut.
+19. Fix `ResolvedProblemClearer`. Compact can fail (second case for #1551). PR #1905.
 
 Our plans for the future include:
 
-1. Migrate to SQL database (ActiveRecord). Ref: [#2832](https://github.com/errbit/errbit/pull/2832).
-2. Using Errbit as an MCP Server. Ref: [#2873](https://github.com/errbit/errbit/pull/2873)
-3. OIDC (aka OpenID Connect) support. Ref: [#2634](https://github.com/errbit/errbit/pull/2634) 
+1. Migrate to an SQL database (ActiveRecord). Ref: [#2832](https://github.com/errbit/errbit/pull/2832).
+2. Using Errbit as an MCP server. Ref: [#2873](https://github.com/errbit/errbit/pull/2873).
+3. OIDC (aka OpenID Connect) support. Ref: [#2634](https://github.com/errbit/errbit/pull/2634).
 
 We are also looking for contributors to help us with these plans. If you are
 interested in contributing, please check out our [GitHub Issues](https://github.com/errbit/errbit/issues).
