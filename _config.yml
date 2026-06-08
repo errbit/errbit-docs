@@ -5,7 +5,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - bin
-  - CNAME
   - lib
   - tmp
   - vendor
