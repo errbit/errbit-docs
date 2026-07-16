@@ -1,4 +1,4 @@
-FROM docker.io/library/caddy:2.11.4@sha256:af5fdcd76f2db5e4e974ee92f96ee8c0fc3edb55bd4ba5032547cbf3f65e486d
+FROM docker.io/library/caddy:2.11.4@sha256:58483504a1c605edfd9e948ee67524f5dd6cc5734aa315ec68b88b99c8433952
 
 COPY Caddyfile /etc/caddy/
 
