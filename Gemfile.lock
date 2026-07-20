@@ -136,7 +136,7 @@ GEM
       io-console (~> 0.5)
     rexml (3.4.4)
     rouge (4.7.0)
-    rugged (1.9.4)
+    rugged (1.9.6)
     safe_yaml (1.0.5)
     sass-embedded (1.101.0)
       google-protobuf (~> 4.31)
@@ -274,7 +274,7 @@ CHECKSUMS
   reline (0.6.3) sha256=1198b04973565b36ec0f11542ab3f5cfeeec34823f4e54cebde90968092b1835
   rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
   rouge (4.7.0) sha256=dba5896715c0325c362e895460a6d350803dbf6427454f49a47500f3193ea739
-  rugged (1.9.4) sha256=5876152be06568b413eb7eaccf3932a5b011a139fcf9330a680abdf16859dcd3
+  rugged (1.9.6) sha256=c6e45250e51cdf19f6130d050e280ba8d6af475d4c76580f91377a59fe23d3c7
   safe_yaml (1.0.5) sha256=a6ac2d64b7eb027bdeeca1851fe7e7af0d668e133e8a88066a0c6f7087d9f848
   sass-embedded (1.101.0) sha256=57dbc3409e2c0a2c581a4c9945c2bd72ec88e71ec98017bd02dd1da8a76b22f4
   sass-embedded (1.101.0-aarch64-linux-android) sha256=ad0a35c6ff5cdc4e31c5d8261a768ef460c6c7d1458081183e42170e1474c4b5
