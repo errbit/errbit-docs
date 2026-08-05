@@ -4,26 +4,34 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 0
     open-pull-requests-limit: 99
     allow:
       - dependency-type: "direct"
       - dependency-type: "indirect"
     assignees:
       - "biow0lf"
+
   - package-ecosystem: "bundler"
     directory: "/blog"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 0
     open-pull-requests-limit: 99
     allow:
       - dependency-type: "direct"
       - dependency-type: "indirect"
     assignees:
       - "biow0lf"
+
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 0
     open-pull-requests-limit: 99
     assignees:
       - "biow0lf"
