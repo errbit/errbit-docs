@@ -96,7 +96,7 @@ class DocBuilder
     end
   end
 
-  # master first, then descending numerically (by semver semantics)
+  # main first, then descending numerically (by semver semantics)
   def sort_versions
     @versions.sort! do |a,b|
       if a == "main"
