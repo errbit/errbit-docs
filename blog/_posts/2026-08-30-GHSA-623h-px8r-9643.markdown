@@ -11,7 +11,9 @@ Hello,
 the comment notification email.
 
 This advisory is assigned [GHSA-623h-px8r-9643](https://github.com/errbit/errbit/security/advisories/GHSA-623h-px8r-9643).
+
 CVE is pending.
+
 Affected code:
 
 ```erb
