@@ -30,5 +30,5 @@ Fix in PR: [https://github.com/errbit/errbit/pull/3094](https://github.com/errbi
 
 Fix released in Errbit version: v0.11.5.
 
-Workaround: Make sure that you are using email client that properly
-sanitize HTML body of email.
+Workaround: Make sure that you are using an email client that properly
+sanitizes the HTML body of the email.
