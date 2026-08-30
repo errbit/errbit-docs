@@ -1,0 +1,24 @@
+---
+layout:   post
+title:    "XSS in via notice backtrace file path (GHSA-p452-6f7x-vcqx)"
+date:     2026-08-31 00:00:00 +0200
+category: security
+---
+
+Hello,
+
+[@saidM](https://github.com/saidM) found XSS via notice backtrace file path.
+
+This advisory is assigned [GHSA-p452-6f7x-vcqx](https://github.com/errbit/errbit/security/advisories/GHSA-p452-6f7x-vcqx).
+
+CVE is pending.
+
+Affected code:
+
+```erb
+# app/views/notices/_backtrace_line.html.erb
+
+<%= raw line.decorated_path %>
+```
+
+Fix released in Errbit version: v0.11.5.
