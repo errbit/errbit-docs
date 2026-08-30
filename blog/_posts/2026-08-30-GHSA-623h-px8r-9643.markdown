@@ -8,7 +8,21 @@ category: security
 Hello,
 
 [@mikelolasagasti](https://github.com/mikelolasagasti) found XSS in
-comment notification email.
+the comment notification email.
 
 This advisory is assigned [GHSA-623h-px8r-9643](https://github.com/errbit/errbit/security/advisories/GHSA-623h-px8r-9643).
 It will be published later. CVE is pending.
+
+Affected code:
+
+```erb
+# app/views/mailer/comment_notification.html.erb
+
+<%= @comment.body.to_s.gsub("\n", "<br>").html_safe %>
+```
+
+Fixed version:
+
+```erb
+<%= simple_format(@comment.body) %>
+```
