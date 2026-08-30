@@ -26,3 +26,10 @@ Fixed version:
 ```erb
 <%= simple_format(@comment.body) %>
 ```
+
+Fix in PR: [https://github.com/errbit/errbit/pull/3094](https://github.com/errbit/errbit/pull/3094)
+
+Fix released in Errbit version: v0.11.5.
+
+Workaround: Make sure that you are using email client that properly
+sanitize HTML body of email.
