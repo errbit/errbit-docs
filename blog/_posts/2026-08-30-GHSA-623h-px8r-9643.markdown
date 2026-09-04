@@ -1,0 +1,36 @@
+---
+layout:   post
+title:    "XSS in comment notification email (GHSA-623h-px8r-9643)"
+date:     2026-08-30 00:00:00 +0200
+category: security
+---
+
+Hello,
+
+[@mikelolasagasti](https://github.com/mikelolasagasti) found XSS in
+the comment notification email.
+
+This advisory is assigned [GHSA-623h-px8r-9643](https://github.com/errbit/errbit/security/advisories/GHSA-623h-px8r-9643).
+
+CVE is pending.
+
+Affected code:
+
+```erb
+# app/views/mailer/comment_notification.html.erb
+
+<%= @comment.body.to_s.gsub("\n", "<br>").html_safe %>
+```
+
+Fixed version:
+
+```erb
+<%= simple_format(@comment.body) %>
+```
+
+Fix in PR: [https://github.com/errbit/errbit/pull/3094](https://github.com/errbit/errbit/pull/3094)
+
+Fix released in Errbit version: v0.11.5.
+
+Workaround: Make sure that you are using an email client that properly
+sanitizes the HTML body of the email.
