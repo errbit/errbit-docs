@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    "XSS in comment notification email (GHSA-623h-px8r-9643)"
-date:     2026-08-30 00:00:00 +0200
+date:     2026-09-04 00:00:00 +0200
 category: security
 ---
 
