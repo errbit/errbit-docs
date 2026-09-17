@@ -35,3 +35,12 @@ updates:
     open-pull-requests-limit: 99
     assignees:
       - "biow0lf"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    cooldown:
+      default-days: 0
+    assignees:
+      - "biow0lf"
