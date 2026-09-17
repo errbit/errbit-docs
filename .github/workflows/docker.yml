@@ -29,11 +29,11 @@ jobs:
           bundler: "latest"
           bundler-cache: true
 
-      - name: Build docs
-        run: bundle exec jekyll build --verbose
-
-      - name: Build blog
-        run: |
-          pushd blog
-            bundle exec jekyll build --verbose
-          pop
+#      - name: Build docs
+#        run: bundle exec jekyll build --verbose
+#
+#      - name: Build blog
+#        run: |
+#          pushd blog
+#            bundle exec jekyll build --verbose
+#          pop
