@@ -34,12 +34,18 @@ jobs:
           bundler: "latest"
           bundler-cache: true
 
-#      - name: Build docs
-#        run: |
-#          pushd ../
-#            git clone
-#          popd
+      - name: Build docs
+        env:
+          ERRBIT_PATH: "errbit"
+        run: |
+          ls -R
+          
+          pushd blog
+            bundle exec jekyll build --verbose
+          popd
 
+          bundle exec jekyll build --verbose
+#
 #      - name: Build docs
 #        run: bundle exec jekyll build --verbose
 #
