@@ -38,6 +38,7 @@ jobs:
         env:
           ERRBIT_PATH: "errbit"
         run: |
+          bundle install
           bundle exec jekyll build --verbose
 
           pushd blog
