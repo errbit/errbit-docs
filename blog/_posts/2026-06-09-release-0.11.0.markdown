@@ -51,4 +51,3 @@ Our plans for the future include:
 
 We are also looking for contributors to help us with these plans. If you are
 interested in contributing, please check out our [GitHub Issues](https://github.com/errbit/errbit/issues).
-
